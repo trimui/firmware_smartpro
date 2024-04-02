@@ -1,6 +1,68 @@
 # firmware_smartpro
 Firmware release for TG5040 SmartPro
 
+Firmware version: 1.0.4 - 20240401
+=================================
+1. Enable bluetooth function, support a2dp audio and BLE hid. Enable bluetooth audio to all alsa applications.
+2. Add Vulkan Linux driver, update GLES/Vulkan library blobs from 1.11 to 1.19.
+   SDL2 enabled vulkan support.
+   More updates please check SD base package.
+      Fix tmntsr graphic corruption
+      Fix PPSSPP graphic corruption
+      Enable RetroArch vulkan support.
+
+3. Update rootfs libc to version 2.33.
+4. Add Media Player with hardware decoding base on TinaPlayer.
+   Video:
+      H265 MP/L5.2 4k@30fps 100Mbps
+      H.264 BP/MP/HP Level5.1 1080p@60fps 60Mbps
+      AVS/AVS+ 1080p@60fps 30Mbps
+      VP8 N/A 1080p@60fps 40Mbps
+      MPEG1 MP/HL 1080p@60fps 100Mbps
+      MPEG2 MP/HL 1080p@60fps 100Mbps
+      MPEG4 SP/ASP L5 1080p@60fps 100Mbps
+      XVID N/A 1080p@60fps 100Mbps
+      H.263 BP 1080p@60fps 100Mbps
+      Sorenson Spark N/A 1080p@60fps 100Mbps
+      WMV9/VC-1 SP/MP/AP 1080p@30fps 100Mbps
+      MJPEG N/A 1080p@60fps 60Mbps
+
+   Audio:
+      aac、mp3、ape、ogg、flac、wav、opus、alac、amr
+
+   Not support:
+      Dolby, AC3.
+
+5. Add moonlight streaming for NVidia or Sunshine (select + start quit streaming)
+    Notice!  Please turn bluetooth off when streaming. Bluetooth function will have performance impact on WiFi.
+
+6. Add display enhance color setting.
+7. Battery updates
+      Modify charging current from 1500mA to 1950mA. 
+      Add low battery warning (Joystick LEDs).
+      Add low battery wakeup and auto shutdown.
+      Power key long pressing 1.5s to force quit app, long pressing 6s to normally shutdown.
+
+8. Wi-Fi driver updated to reduce suspend cancelling (auto screen on when power key suspend).
+9. Add Language 'traditional-Chinese/German/French/Italian/Russian'.
+10. Fix search result issue when returning from game.
+11. Fix 'Refresh roms' issue in 'Best' tab.
+12. Fix config.json issue when using png as value of key 'extlist'.
+13. Turn off Wi-Fi when suspend, fix auto wakeup when pressing power key (after 15 seconds).
+14. Add built-in SD FAT32 formatter.
+15. Add new tab named 'Ports' for standalone games in 'Ports' folder in SD root path.
+
+
+Firmware version: 1.0.3 - 20240320 hotfix
+=================================
+1. Fix some LCD timing issue.
+
+
+Firmware version: 1.0.3 - 20240105 hotfix
+=================================
+1. Fix audio issue: volume is not actually zero when adjusting to zero.
+
+
 Firmware version: 1.0.3 - 20231222
 =================================
 1. Fix '?????' file name in non-English SD contents when using UMS mode.
