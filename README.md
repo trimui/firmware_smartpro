@@ -1,6 +1,13 @@
 # firmware_smartpro
 Firmware release for TG5040 SmartPro
 
+Firmware version: 1.0.4 hotfix - 20240413
+=================================
+1. Fix manually time setting issue. (App hang or suspend failed)
+2. Add libFlac for MAME RetroArch core.
+3. Fix random key hang issue when wakeup.
+4. Make Wi-Fi static mac address.
+
 Firmware version: 1.0.4 - 20240401
 =================================
 1. Enable bluetooth function, support a2dp audio and BLE hid. Enable bluetooth audio to all alsa applications.
