@@ -4,31 +4,31 @@ Firmware release for TG5040 SmartPro
 Firmware version: 1.1.0 - 20250505
 =================================
 1. Update functionality from 1.0.6 (TRIMUI Brick TG3040).
-   -- Use the appearance and wallpaper of version 1.0.6.
-   -- The emulator icon uses the definition of 1.0.6 (using a two-layer icon/icontop).
-   -- Homepage settings.
-   -- Settings-Device information displays the IP and MAC address of the Wi-Fi.
-   -- Refresh Rom separately for each platfrom.
-   -- Update LED driver to support frame animation.
-   -- Fix a lot of language translations.
-   -- Select A/B key as the confirmation button.
-2. Fix the quick left-right-left issue with the dpad.
-3. Update SDL2 to 2.30.8, fix USB controller keyboard hotplug issue.
+   - Use the appearance and wallpaper of version 1.0.6.
+   - The emulator icon uses the definition of 1.0.6 (using a two-layer icon/icontop).
+   - Homepage settings.
+   - Settings-Device information displays the IP and MAC address of the Wi-Fi.
+   - Refresh Rom separately for each platfrom.
+   - Update LED driver to support frame animation.
+   - Fix a lot of language translations.
+   - Select A/B key as the confirmation button.
+3. Fix the quick left-right-left issue with the dpad.
+4. Update SDL2 to 2.30.8, fix USB controller keyboard hotplug issue.
    Some incompatible mono ports (such as 'TMNTSR' need to be placed in the original game directory using the old version SDL2 library)
-4. Add theme selector preview image (pop-up display)
-5. Add homepage TAB visibility settings in homepage settings, which can hide unnecessary items except 'settings'.
-6. New feature OSD hot function board, default hotkey 'menu+select' to pop up.
-7. Add various pop-up notifications: global volume/brightness/plug+unplug charging cable/...
-8. Add application 'Picture', for jpg/png/bmp/...
-9. Add application 'Reader', for pdf/mobi/epub/...
-10. Add application 'Music', for MP3/wma/wav/flac/ape/..
-11. Game list page flipping improvement, add L2/R2 letter scrolling.
-12. Adjust the volume curve and lower the value at the lowest (1/20) volume.
-13. Add automatic SD error checking and repairing in USB mode.
-14. Add Russian/Vietnamese language translations.
-15. Increase the boot partition space to 22MB for the boot logo, increase the system partition to 2GB.
-16. The system app theme follows Main UI theme.
-17. The game list folder supports thumbnails with the same name, such as Roms/EASYRPG/AAA/AAA.png.
+5. Add theme selector preview image (pop-up display)
+6. Add homepage TAB visibility settings in homepage settings, which can hide unnecessary items except 'settings'.
+7. New feature OSD hot function board, default hotkey 'menu+select' to pop up.
+8. Add various pop-up notifications: global volume/brightness/plug+unplug charging cable/...
+9. Add application 'Picture', for jpg/png/bmp/...
+10. Add application 'Reader', for pdf/mobi/epub/...
+11. Add application 'Music', for MP3/wma/wav/flac/ape/..
+12. Game list page flipping improvement, add L2/R2 letter scrolling.
+13. Adjust the volume curve and lower the value at the lowest (1/20) volume.
+14. Add automatic SD error checking and repairing in USB mode.
+15. Add Russian/Vietnamese language translations.
+16. Increase the boot partition space to 22MB for the boot logo, increase the system partition to 2GB.
+17. The system app theme follows Main UI theme.
+18. The game list folder supports thumbnails with the same name, such as Roms/EASYRPG/AAA/AAA.png.
 
 
 Firmware version: 1.0.4 hotfix - 20240413
