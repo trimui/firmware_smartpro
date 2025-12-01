@@ -1,6 +1,23 @@
 # firmware_smartpro
 Firmware release for TG5040 SmartPro
 
+Firmware version: 1.1.1 - 20251128
+=================================
+1. Disable OSD sound effect for audio OSS no sound issue.
+2. Add OFF in OSD, fix OSD unexpected pop-up and BT/Wi-Fi icon synchronization issues.
+3. Fix the favorites crash issue when deleting an item from the list.
+4. Fix the SSID and password issues with special characters, fix the hotspot empty password issue.
+5. Reset Wi-Fi passwords when 'factory reset'.
+6. Add 'Use Joystic' setting for MainUI navigation, optimize the speed of joystick navigation.
+7. Add keytone ON/OFF setting.
+8. Fix occasional deadlocks when coming back from any apps to Main UI.
+9. Fix ARISC firmware for the occasional not being able to start up when USB plugged and force poweroff.
+   (the battery needs to be drained when the problem occurs).
+10. Add SSH support.
+11. Fix OSD layout issue 'last widget does not show'.
+12. Fix language issue 'device crashed when an incorrect lang file was used'.
+13. Fix BGM toggle issue 'BGM will still turn on when toggle was set to OFF and then suspend/wakeup'.
+    
 Firmware version: 1.1.0 - 20250505
 =================================
 1. Update functionality from 1.0.6 (TRIMUI Brick TG3040).
